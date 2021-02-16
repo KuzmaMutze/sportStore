@@ -1,0 +1,35 @@
+@media (max-width: 1200px) { 
+
+}
+
+@media (max-width:991px){
+
+}
+
+@media (max-width:767px){
+    .offer-title{
+        font-size: 24px;
+    }
+    .consultation{
+        &__descr{
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width:575px){
+    
+}
+
+@media (max-width:375px){
+    .offer-title{
+        font-size: 19px;
+    }
+    .consultation{
+        padding: 50px 0 40px 0;
+        min-height: 542px;
+        &__descr{
+            font-size: 14px;
+        }
+    }
+}

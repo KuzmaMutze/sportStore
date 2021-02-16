@@ -1,0 +1,7 @@
+.link{
+    color: $main-color;
+    text-decoration: underline;
+    &_font{
+        font-size: 14px;
+    }
+}

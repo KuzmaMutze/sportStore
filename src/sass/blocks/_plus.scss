@@ -1,0 +1,16 @@
+.plus{
+    padding:70px 0 78px;
+    background-color: #f6f6f6;
+    &_mt{
+        margin-top: 26px;
+    }
+    &__icons{
+        display: flex; 
+        justify-content: space-between;
+    }
+    &__icon{
+        width: 226px;
+        margin: 60px 20px 0;
+        text-align: center;
+    }
+}

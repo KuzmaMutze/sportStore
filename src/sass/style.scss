@@ -1,0 +1,42 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/slick";
+
+@import "base/variables";
+@import "base/fonts";
+@import "base/mixins";
+
+*{
+    font-family: $main-font;
+    font-weight: 700;
+}
+
+.container{
+    max-width: 950px;
+    margin:0 auto;
+}
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/plus";
+@import "media/promo";
+
+@import "blocks/offer-title";
+@import "blocks/title";
+@import "blocks/subtitle";
+@import "blocks/link";
+@import "media/plus";
+
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "media/consultation";
+
+@import "blocks/carousel";
+
+@import "blocks/catalog";
+
+@import "blocks/reviews";
+
+@import "blocks/map";
+@import "blocks/modals";
+
+@import "blocks/pageup";
